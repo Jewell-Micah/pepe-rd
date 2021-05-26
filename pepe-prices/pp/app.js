@@ -166,6 +166,7 @@ stockX.fetchProductDetails('https://stockx.com/air-jordan-3-retro-a-ma-maniere-w
 .catch(err => console.log(`Error scraping product details: ${err.message}`));*/
 
 /* 
+
 //attempt at applying a search function
 app.post('/search-result', function(req, res) {
 
@@ -178,7 +179,7 @@ app.post('/search-result', function(req, res) {
   if (err) throw err;
 
   var db = client.db('pepe');                                                                                                                                
-  db.collection('product').find({recipe: req.body.keyword}).toArray((findErr, results) => {                                                                                                                  
+  db.collection('product').find({product: req.body.keyword}).toArray((findErr, results) => {                                                                                                                  
 
   if (findErr) throw findErr;
 
