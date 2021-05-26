@@ -1,6 +1,6 @@
 This is the read me file.
 
-# Node.js & Passport Login
+# Pepe Prices FYP
 
 This is a web app that uses Node.js, Express, Passport, Mongoose, EJS and some other packages.
 
