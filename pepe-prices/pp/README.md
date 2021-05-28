@@ -10,6 +10,8 @@ This is a web app that uses Node.js, Express, Passport, Mongoose, EJS and some o
 
 Install Node.js: https://nodejs.org/en/download/
 
+Install MongoDB: https://docs.mongodb.com/manual/installation/
+
 ```sh
 Direct yourself to /pepe rd/pepe-prices/pp in your desired environment e.g. Visual Studio Code
 $ Then Run npm install
